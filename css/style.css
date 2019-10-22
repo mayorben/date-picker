@@ -1,0 +1,204 @@
+h1 {
+    
+    font-size: 20px;
+}
+body {
+    background-color: chocolate;
+    margin: 00 10px;
+}
+#wrapper{
+    padding: 6px 17px 0;
+    margin: 0 auto;
+    height: 66px;
+}
+
+.poem-button{
+    display: block;
+    text-align: center;
+    background: chocolate;
+    color: #fff;
+    width: 200px;
+    height: 50px;
+    border-radius: 3px;
+    font-size: 21px;
+    margin: 9px auto;
+    line-height: 50px;
+    border: #eee 2px dashed;
+    padding: 0 10px;
+}
+.poem-button:hover{
+	background-color: #02b8dd;
+    color: #fff;
+}
+a.color:hover {
+    border-block-end-style: none;
+    color: white;
+    background-color: chocolate;
+    border-color: whitesmoke;
+    transition: all .2s ease-out;
+    border-radius: 4px 4px 0 0;
+}
+li:hover {
+    background-color: antiquewhite;
+}
+.color{
+	border: chocolate 2px solid;
+    margin: 5px;
+    padding: 8px;
+    font-size: 16px;
+    line-height: normal;
+    font-family: Arial;
+    width: 95px;
+    color: #eee;
+    text-align: center;
+}
+
+div#container {
+    width: 600px;
+    margin: 0 auto;
+    color: #fbfdfd;
+    background-color: darkslategray;
+    box-shadow: 0px 0 15px #8e5151;
+   }
+
+div#container a{
+    width: 100px;
+}
+
+  #headtitle {
+    text-align: center;
+    color: #EEE;
+    font-size: -webkit-xxx-large;
+    line-height: 2;
+    letter-spacing: 2px;
+    padding-left: 36px;
+}
+nav#nav-container li {
+    display: inline-block;
+    list-style: none;
+    float: right;
+    padding: 8px;
+    margin-right: 22px;
+    border: #eee 2px solid;
+    margin-top: 15px;
+    line-height: normal;
+    border-radius: 7px;
+}
+.main-nav{
+    color: white;
+}
+
+@media (max-width: 600px) {
+    body {
+      font-size: 10px;
+      max-height: 75px; }
+      #inner {
+        min-width: 60px;
+    }
+  }
+  @media (max-width: 1024px) {
+    #container {
+      margin: 0;
+    }
+    body {
+      min-width: 60px;
+    }
+    
+  }
+
+@keyframes colors {
+0% { color: pink; }
+20% { color: orange; }
+40% { color: yellow; }
+60% { color: green; }
+80% { color: blue; }
+100% { color: gold; }
+}
+
+@-webkit-keyframes colors {
+0% { color: red; }
+20% { color: orange; }
+40% { color: yellow; }
+60% { color: green; }
+80% { color: blue; }
+100% { color: purple; }
+}
+
+#headtitle {
+animation-name: colors;
+animation-duration: 8s;
+animation-timing-function: ease-out;
+animation-iteration-count: infinite;
+animation-direction:reverse;
+animation-play-state:running; ;
+animation-delay:2s ;
+}
+a.main-nav:hover {
+    color: indigo;
+}
+
+#letter{
+    width: 400px;
+    margin: 0 auto;
+}
+
+#note{
+    height: 130px;
+    width: 400px;
+}
+
+.inner {
+    width: 870px;
+    height: 400px;
+    background: url(../image/4.jpg) center no-repeat;
+    background-size: cover;
+    margin: 0 250px;
+    position: absolute;
+    top: 66px;
+}
+.cross {
+    height: 50px;
+    width: 50px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 17px;
+    background: url(../image/cross.png) center no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}   
+.prev {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;;
+    background: url(../image/prev.png) center no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 133px;
+}
+.next {
+    height: 50px;
+    width: 50px;
+    cursor: pointer;
+    float: right;
+    background: url(../image/next.png) center no-repeat;
+    background-size: cover;
+    position: relative;
+    top: 133px;
+}
+
+	/* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url('../image/preloader.gif') center no-repeat #fff;
+}
+
+
